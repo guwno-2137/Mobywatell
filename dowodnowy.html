@@ -543,19 +543,8 @@
                     </div>
                   
                 </div>
-<script>
-  // Jeśli brak danych → wróć na formularz
-  if (!localStorage.getItem("dane1")) {
-      window.location.href = "index.html";
-  }
 
-  // Podstawienie danych do elementów
-  document.getElementById("out1").textContent = localStorage.getItem("dane1"); // imię
-  document.getElementById("out2").textContent = localStorage.getItem("dane2"); // nazwisko
-  document.getElementById("out3").textContent = localStorage.getItem("dane3"); // data urodzenia
 
-  // Podmiana obrazka
-  document.getElementById("foto").src = localStorage.getItem("zdjecie");
-</script>
+
 
 </body></html>
